@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Pemilihan2Percobaan215 {
     public static void main(String[] args) {
         Scanner input15 = new Scanner(System.in);
-        int totalSudut;
+        float totalSudut;
         System.out.print("Masukkan Sudut 1: ");
-        int sudut1 = input15.nextInt();
+        float sudut1 = input15.nextFloat();
         System.out.print("Masukkan Sudut 2: ");
-        int sudut2 = input15.nextInt();
+        float sudut2 = input15.nextFloat();
         System.out.print("Masukkan Sudut 3: ");
-        int sudut3 = input15.nextInt();
+        float sudut3 = input15.nextFloat();
 
         totalSudut = sudut1 + sudut2 + sudut3;
         if (totalSudut == 180) {
